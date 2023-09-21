@@ -1,0 +1,72 @@
+body,html{
+  background-color: #000;
+}
+
+.text-secondary {
+  color: #cae9f4;
+}
+
+
+.h4,
+h4 {
+  font-size: 1.2rem;
+  color: #11e3ff;
+  
+}
+
+h2 {
+  color: #2ec2f8;
+}
+
+.faa,
+.fass {
+  font-family: 'FontAwesome';
+  font-weight: 400;
+  font-size: 1.2rem;
+  font-style: normal;
+}
+
+
+
+.right-0 {
+  right: 0;
+}
+
+
+
+.card{
+ 
+background: #000;
+
+
+}
+
+.top-0 {
+  top: 0;
+}
+
+.h-100 {
+  height: 100%;
+}
+
+a.text-secondary:focus,
+a.text-secondary:hover {
+  text-decoration: none;
+  color: #2ec2f8;
+}
+
+.collapse{
+
+  background: #000;
+
+}
+#accordion .fa-plus {
+  transition: -webkit-transform 0.25s ease-in-out;
+  transition: transform 0.25s ease-in-out;
+  transition: transform 0.25s ease-in-out, -webkit-transform 0.25s ease-in-out;
+}
+
+#accordion a[aria-expanded=true] .fa-plus {
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
